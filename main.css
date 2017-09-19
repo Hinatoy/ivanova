@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://i.pinimg.com/originals/58/4f/7e/584f7ed9727de421d422911f8b1c3a54.jpg');
+  background-size: cover;
+  height: 500px;
+}
+
+.col-md-6 {
+  margin: 0 0 20px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
+
+.page-description {
+  border: 1px solid #000;
+  margin: 2px;
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery {
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.gallery-item {
+  margin: 450px;
+}
+
+.gallery-item .thumbnail {
+  border: 5px solid #fff;
+}
